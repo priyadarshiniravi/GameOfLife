@@ -10,7 +10,16 @@ public class CellTest {
 
         char State = cell.isAlive();
 
-        Assert.assertEquals('a',State);
+        Assert.assertEquals('a', State);
+
+    }
+
+    public void ShouldBeDeadStateOfTheCell() {
+        Cell cell = new Cell(false);
+
+        char State = cell.isAlive();
+
+        Assert.assertEquals('d', State);
 
     }
 }
