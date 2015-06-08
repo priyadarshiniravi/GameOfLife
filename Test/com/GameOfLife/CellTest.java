@@ -8,9 +8,9 @@ public class CellTest {
     public void ShouldBeAliveStateOfTheCell() {
         Cell cell = new Cell(true);
 
-        boolean State = cell.isAlive();
+        char State = cell.isAlive();
 
-        Assert.assertTrue(State);
+        Assert.assertEquals('a',State);
 
     }
 }

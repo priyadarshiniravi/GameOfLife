@@ -7,7 +7,7 @@ public class Cell {
         this.state=state;
     }
 
-    public boolean isAlive() {
-        return true;
+    public char isAlive() {
+        return 'a';
     }
 }
