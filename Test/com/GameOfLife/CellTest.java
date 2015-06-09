@@ -8,18 +8,18 @@ public class CellTest {
     public void ShouldBeAliveStateOfTheCell() {
         Cell cell = new Cell(true);
 
-        char State = cell.isAlive();
+        char actualStatectualState = cell.isAlive();
 
-        Assert.assertEquals('a', State);
+        Assert.assertEquals('a', actualState);
 
     }
 
     public void ShouldBeDeadStateOfTheCell() {
         Cell cell = new Cell(false);
 
-        char State = cell.isAlive();
+        char actualState = cell.isAlive();
 
-        Assert.assertEquals('d', State);
+        Assert.assertEquals('d', actualState);
 
     }
 }
